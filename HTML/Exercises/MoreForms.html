@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Forms</title>
+</head>
+<body>
+    <h1>Other Form Controls</h1>
+
+    <h2>Text Areas</h2>
+    <form action="">
+        <div>
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" cols="50" rows="10"></textarea>
+        </div>
+    </form>
+
+    <h2>Checkboxes</h2>
+    <form action="">
+        <input type="text" placeholder="username"/>
+        <div>
+        <label for="subscribe">Subscribe to newsletter?</label>
+        <input type="checkbox" id="subscribe" name="subscribe" checked/>
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <h2>Range input</h2>
+    <form action="">
+        <div>
+        <label for="volume">Select Volume</label>
+        <input type="range" id="volume" min="0" max="10" name="volume" value="0" step="1"/>
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <h2>Selects</h2>
+    <form action="">
+        <div>
+        <label for="skilllevel">Sellect your skill level</label>
+        <select name="skilllevel" id="skilllevel">
+            <option value="1">Level 1 - Beginner</option>
+            <option value="2" selected>Level 2 - Intermediate</option>
+            <option value="3">Level 3 - Expert</option>
+        </select>
+    </div>
+        <button>Submit</button>
+    </form>
+
+    <h2>Radio Buttons</h2>
+    <form action="">
+        
+        <fieldset>
+            <legend>Pick your shirt size:</legend>
+        <div>
+            <label for="small">Small</label>
+             <input type="radio" id="small" name="size" value="s">
+        </div>
+        <div>
+            <label for="medium">Medium</label>
+             <input type="radio" id="mwdium" name="size" value="m">
+        </div>
+        <div>
+            <label for="large">Large</label>
+             <input type="radio" id="large" name="size" value="l">
+        </div>
+    </fieldset>
+        <button>Submit</button>
+    </form>
+
+    <h2>Other Input Types</h2>
+    <form action="">
+        <input type="color">
+        <input type="datetime-local">
+    </form>
+</body>
+</html>

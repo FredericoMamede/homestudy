@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms Exercise</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Create a form that submits to /login -->
+    <!-- It should collect a user's username, email, and password -->
+    <!-- All inputs should be properly labeled -->
+    <!-- All inputs are required -->
+    <!-- All inputs need placeholder text -->
+    <!-- Add a button at the end to submit the form-->
+
+    <form action="/login">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="username" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password" required >
+      </div>
+      <button>Login</button>
+    </form>
+  </body>
+</html>
