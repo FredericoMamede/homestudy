@@ -1,0 +1,102 @@
+<!-- Cria uma página HTML com a seguinte estrutura: textos
+
+Um título da página: Lista dentro de lista dentro de outra lista
+
+Um título de nível 1: Nível 1 da Lista - Lista Não Ordenada
+
+Uma lista não ordenada com 3 itens:
+
+O primeiro item, deve ter:
+
+um título de nível 2: Nível 2 da Lista - Lista Ordenada
+uma lista ordenada com 3 itens:
+o primeiro item deve ter um título de nível 3: Nível 3 da Lista - Lista Ordenada; e uma lista ordenada com 3 itens:
+Item 1
+Item 2
+Item 3
+o segundo item deve ter um título de nível 3: Nível 3 da Lista - Lista de Definições; e uma lista de definições com 3 termos:
+Termo 1
+Termo 2
+Termo 3
+E correspondentes definições:
+Definição do termo 1.
+Definição do termo 2.
+Definição do termo 3.
+o terceiro item deve ter um título de nível 3: Nível 3 da Lista - Lista Não Ordenada; e uma lista não ordenada com 3 itens:
+Item 1
+Item 2
+Item 3
+O segundo item, deve ter:
+
+um título de nível 2: Nível 2 da Lista - Lista Ordenada
+uma lista ordenada com 3 itens:
+Item 1
+Item 2
+Item 3
+O segundo item, deve ter:
+
+um título de nível 2: Nível 2 da Lista - Lista Não Ordenada
+uma lista não ordenada com 3 itens:
+Item 1
+Item 2
+Item 3 -->
+
+<html>
+<head>
+<title>Lista dentro de lista dentro de outra lista</title>
+</head>
+<body>
+<h1>Nível 1 da Lista - Lista Não Ordenada</h1>
+<ul>
+    <li><h2>Nível 2 da Lista - Lista Ordenada</h2>
+        <ol>
+            <li><h3>Nível 3 da Lista - Lista Ordenada</h3>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </li>
+        
+            <li><h3>Nível 3 da Lista - Lista de Definições</h3>
+                <dl>
+                    <dt>Termo 1</dt>
+                        <dd>Definição do termo 1.</dd>
+                    <dt>Termo 2</dt>
+                        <dd>Definição do termo 2.</dd>
+                    <dt>Termo 3</dt>
+                        <dd>Definição do termo 3.</dd>
+                </dl>
+            </li>
+
+            <li><h3>Nível 3 da Lista - Lista Não Ordenada</h3>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+
+
+ 
+      
+    <li><h2>Nível 2 da Lista - Lista Ordenada</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        </li>
+            <li><h2>Nível 2 da Lista - Lista Não Ordenada</h2>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </li>
+   
+</ul>
+</body>
+</html>
